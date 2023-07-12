@@ -1,0 +1,17 @@
+{"parallel_modules": [
+    "Dealdonkey",
+    "Etsy",
+    "Greenbubble",
+    "Growjungle",
+    "Homedeco",
+    "Plantenreus",
+    "Plantje",
+    "Plnts",
+    "casa_botanica",
+    "Stekjesenzo",
+    "intratuin"
+], 
+
+"selenium_modules": [
+    "Stekjesenzo"
+]}
