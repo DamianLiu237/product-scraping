@@ -1,5 +1,3 @@
-import re
-
 from bs4 import BeautifulSoup
 from web_scraping import product
 

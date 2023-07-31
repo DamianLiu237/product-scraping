@@ -33,6 +33,7 @@ async def scrape_products_website(website_name: str, website: Website) -> pd.Dat
     coros = []
     for url in website.get_urls():
         coros.append(scrape_products_page(url, website.scrape_page))
+        print("finished scraping page: \n", url)
     results = await asyncio.gather(*coros)
     results = flatten_list(results)
 

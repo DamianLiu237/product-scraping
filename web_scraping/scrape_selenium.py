@@ -27,6 +27,7 @@ def scrape_products_page(url: str, scrape_fn: Scraper) -> list[Product]:
     try:
         html_source = driver.get(url)
         html_source = driver.page_source
+        print(html_source)
     except Exception as e:
         print("Error fetching page at: ", url)
         print(e)
